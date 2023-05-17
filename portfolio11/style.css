@@ -58,7 +58,7 @@ nav ul li a:hover::after{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/contact-us-background.jpg);
+    background-image: url(images/office-581131_640.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -68,10 +68,10 @@ nav ul li a:hover::after{
 }
 
 
-
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    margin-top: 350px;
 }
 .header-text h1{
     font-size: 60px;
@@ -91,7 +91,7 @@ nav ul li a:hover::after{
 #about{
     width: 100%;
     height: 100vh;
-    /* background-image: url(images/Freebie-DarkGrungeTextures-Preview-02.webp); */
+    background-image: url(images/contact-us-background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -110,6 +110,9 @@ nav ul li a:hover::after{
 }
 .about-col-2{
     flex-basis: 60%;
+    /* background-color: rgb(61, 59, 59); */
+    height: 500px;
+    
 }
 .about-col-2 p{
     margin-top: 20px;
@@ -178,7 +181,7 @@ nav ul li a:hover::after{
 #projects{
     width: 100%;
     height: 100vh;
-    background-image: url(images/d2f.jpg);
+    background-image: url(images/photo-1591962950121-900a2e62ecb5.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -188,15 +191,42 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
 }
 .projects-list div{
     background: #25085a;
+    opacity: 1.0;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s,transform 0,5s;
 }
+/* .projects-list div p{
+    padding-top: 5px;
+    content: none;
+} */
 .projects-list div i{
     font-size: 50px;
     margin-bottom: 30px;
@@ -211,6 +241,7 @@ nav ul li a:hover::after{
     color: white;
     font-size: 12px;
     margin-top: 20px;
+    display:inline-block;
 }
 .projects-list div:hover{
     background: rgb(101, 101, 165);
@@ -218,7 +249,12 @@ nav ul li a:hover::after{
 }
 /* ------------------------------------conctact-------------------------------- */
 #contact{
-    margin-top: 100px;
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/photo-1534536281715-e28d76689b4d.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .contact-left{
@@ -232,6 +268,9 @@ nav ul li a:hover::after{
 
 .contact-left p{
     margin-top: 30px;
+}
+#contact h1{
+    margin-top: 100px;
 }
 
 .contact-left p i{
@@ -285,4 +324,23 @@ footer {
   @media only screen and(max-width: 600px){
     
   }
+
+  /* @media screen and (max-width: 950px)
+{
+    .gamecontainer{
+        flex-wrap: wrap;
+    }
+    .gameinfo{
+        margin-top: 34px;
+    }
+    .gameinfo h1{
+        font-size: 1.8rem;
+    }
+    .container{
+        display: grid;
+        grid-template-rows: repeat(3,20vw);
+        grid-template-columns: repeat(3,20vw);
+        
+    }
+} */
 
