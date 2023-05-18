@@ -81,7 +81,7 @@ nav ul li a:hover::after{
 .projects-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 60px;
+    grid-gap: 15px;
     margin-top: 50px;
     padding: 50px;
     border-radius: 30px;
@@ -92,7 +92,7 @@ nav ul li a:hover::after{
 
 .projects-list div{
     
-    background-image: url(images/images\ \(1\).jpg);
+    background-image: url(images/Freebie-DarkGrungeTextures-Preview-02.webp);
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -100,10 +100,10 @@ nav ul li a:hover::after{
     transition: background 0.5s,transform 0,5s;
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 290px;
 }
 .projects-list div i{
-    font-size: 50px;
+    font-size: 15px;
     margin-bottom: 30px;
 } 
 .projects-list div h2{
@@ -112,14 +112,22 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
     color: white;
 }
+.projects-list div p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
 .projects-list div a{
     text-decoration: none;
     color: white;
     font-size: 15px;
-    margin-top: 20px;
+    font-weight: 500px;
+    font-family:cursive;
+    margin-bottom: 30px;
 }
 .projects-list div:hover{
     /* background: rgb(101, 101, 165); */
     transform: translateY(-10px);
-    box-shadow: 10px 10px 10px green;
+    box-shadow: 10px 10px 10px rgb(244, 247, 244);
 }

@@ -103,9 +103,15 @@ nav ul li a:hover::after{
     height: 200px;
 }
 .projects-list div i{
-    font-size: 50px;
+    font-size: 15px;
     margin-bottom: 30px;
 } 
+ 
+.projects-list div p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
 .projects-list div h2{
     font-size: 30px;
     font-weight: 500;
@@ -116,10 +122,10 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: white;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .projects-list div:hover{
     /* background: rgb(101, 101, 165); */
     transform: translateY(-10px);
-    box-shadow: 10px 10px 10px green;
+    box-shadow: 10px 10px 10px rgb(236, 240, 236);
 }
